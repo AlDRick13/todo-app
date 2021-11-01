@@ -1,0 +1,30 @@
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 5px;
+    border-bottom: solid 2px;
+    padding: 5px 2px 5px 2px;
+    align-items: center;
+
+}
+
+.complete {
+    color: #fff;
+    background-color: #d57e7e;
+    padding: 10px 15px;
+    font-size: 1rem;
+    outline: none;
+    border: 1px solid #d57e7e;
+    border-radius: 10px;
+  }
+  
+   .reset {
+    color: #fff;
+    background-color: #c6d57e;
+    padding: 5px 10px;
+    font-size: 1rem;
+    outline: none;
+    border: 1px solid #c6d57e;
+    border-radius: 10px;
+  }
